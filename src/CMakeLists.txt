@@ -45,7 +45,6 @@ if (CMAKE_BUILD_TOOL MATCHES "make")
 		MESSAGE(STATUS "setting gcc options: -Wall  -Wno-deprecated -pedantic-errors")
 		add_definitions(-Wall  -Wno-deprecated -pedantic-errors)
     endif(GCC_4_6)
-    
 endif (CMAKE_BUILD_TOOL MATCHES "make")
 
 option(BUILD_TYPE

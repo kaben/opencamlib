@@ -33,8 +33,8 @@ endif(NOT BUILD_DOC)
 # thus we use now use -Wno-deprecated here.
 #
 if (CMAKE_BUILD_TOOL MATCHES "make")
-    MESSAGE(STATUS "setting gcc options: -Wall -Werror -Wno-deprecated -pedantic-errors")
-    add_definitions(-Wall  -Wno-deprecated -Werror -pedantic-errors)
+    MESSAGE(STATUS "setting gcc options: -Wall -Wno-deprecated -pedantic-errors")
+    add_definitions(-Wall  -Wno-deprecated -pedantic-errors)
 endif (CMAKE_BUILD_TOOL MATCHES "make")
 
 option(BUILD_TYPE
